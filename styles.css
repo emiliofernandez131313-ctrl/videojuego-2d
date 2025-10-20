@@ -1,0 +1,30 @@
+body {
+  background-color: #b8860b; /* Amarillo mostaza oscuro */
+  color: white;
+  cursor: url('assets/cursor.png'), auto;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+#canvasJuego {
+  background: url('assets/fondo_halloween.jpg') no-repeat center center;
+  background-size: cover;
+  border: 3px solid orange;
+  border-radius: 10px;
+  box-shadow: 0 0 20px orange;
+}
+
+.instrucciones {
+  border: 2px solid orange;
+  box-shadow: 0 0 10px orange;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para contraste */
+}
+
+h1 {
+  color: orange;
+  text-shadow: 2px 2px 5px black;
+}
+
+footer {
+  background-color: #1a1a1a;
+  border-top: 2px solid orange;
+}
